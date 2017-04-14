@@ -1,1 +1,0 @@
-web: node 4d6bot.js
