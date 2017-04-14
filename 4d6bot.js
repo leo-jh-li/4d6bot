@@ -16,7 +16,7 @@ function tweetEvent(tweet) {
     var username = tweet.user.screen_name;
     var message = "";
     do {
-		message = "@" + username + "\n" + craftText();
+      message = "@" + username + "\n" + craftText();
     } while (message.length > MAX_TWEET_LENGTH);
     var tweetParams = { status: message, in_reply_to_status_id: tweetId};
     T.post('statuses/update', tweetParams, function(err, data, response) {
