@@ -5,6 +5,8 @@ var content = require('./content.js');
 
 var handle = '@4d6bot';
 
+const MAX_TWEET_LENGTH = 140;
+
 var stream = T.stream('statuses/filter', { track: [handle] });
 stream.on('tweet', tweetEvent);
 
@@ -12,7 +14,10 @@ function tweetEvent(tweet) {
   if(validateCommand(tweet)) {
     var tweetId = tweet.id_str;
     var username = tweet.user.screen_name;
-    var message = "@" + username + "\n" + craftText();
+    var message = "";
+    do {
+		message = "@" + username + "\n" + craftText();
+    } while (message.length > MAX_TWEET_LENGTH);
     var tweetParams = { status: message, in_reply_to_status_id: tweetId};
     T.post('statuses/update', tweetParams, function(err, data, response) {
       if(err) {
