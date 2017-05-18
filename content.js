@@ -58,6 +58,10 @@ module.exports = {
            "The leader of the party.",
            "Member of a spy network.",
            "Wields a comically oversized weapon.",
+           "Their name instills fear into their enemies.",
+           "Knows something that no one should know.",
+           "Always brings extra blankets, just in case.",
+
            "Really picky eater.",
            "Loves to snack.",
            "Always daydreams.",
