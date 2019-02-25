@@ -66,6 +66,11 @@ module.exports = {
            "Their name instills fear into their enemies.",
            "Knows something that no one should know.",
            "Always brings extra blankets, just in case.",
+           "Carries the hopes of their village.",
+           "Running from their past.",
+           "Loots. Everything.",
+           "Terrible at lying.",
+           "Loves shopping upon entering a new town.",
 
            "Really picky eater.",
            "Loves to snack.",
