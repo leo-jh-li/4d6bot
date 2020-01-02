@@ -71,6 +71,15 @@ module.exports = {
            "Loots. Everything.",
            "Terrible at lying.",
            "Loves shopping upon entering a new town.",
+           "Very early riser.",
+           "Night owl.",
+           "Always getting lost.",
+           "Guards a secret with their life.",
+           "Cannot be slain by normal means.",
+           "The life of the party".
+           "The most responsible member of the party.",
+           "Possesses masterful sleight of hand.",
+           "Overthrew a king.",
 
            "Really picky eater.",
            "Loves to snack.",
