@@ -76,7 +76,7 @@ module.exports = {
            "Always getting lost.",
            "Guards a secret with their life.",
            "Cannot be slain by normal means.",
-           "The life of the party".
+           "The life of the party".,
            "The most responsible member of the party.",
            "Possesses masterful sleight of hand.",
            "Overthrew a king.",
